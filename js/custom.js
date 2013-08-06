@@ -62,14 +62,14 @@ jQuery(document).ready(function($) {
     //##########################################
     $('#slider').rhinoslider({
         effect: 'chewyBars',
-        showTime: 1500,
-        effectTime: 4500,
+        showTime: 4500,
+        effectTime: 5000,
         controlsMousewheel: false,
         controlsKeyboard: false,
         controlsPlayPause: false,
         autoPlay: true,
         shiftValue: '50',
-        parts: '20'
+        parts: '25'
     });
     // $('#front-slides').slides({
         // preload : true,
