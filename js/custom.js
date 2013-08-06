@@ -60,35 +60,44 @@ jQuery(document).ready(function($) {
     //##########################################
     // Front slides
     //##########################################
-
-
-    $('#front-slides').slides({
-        preload : true,
-        preloadImage : 'img/loading.gif',
-        pagination : false,
-        fadeSpeed : 4000,
-        generateNextPrev : false,
-        generatePagination : false,
-        crossfade : true,
-        effect : 'fade',
-        play : {
-            active : true,
-            // [boolean] Generate the play and stop buttons.
-            // You cannot use your own buttons. Sorry.
-            effect : "slide",
-            // [string] Can be either "slide" or "fade".
-            interval : 20000000,
-            // [number] Time spent on each slide in milliseconds.
-            auto : true,
-            // [boolean] Start playing the slideshow on load.
-            swap : false,
-            // [boolean] show/hide stop and play buttons
-            pauseOnHover : false,
-            // [boolean] pause a playing slideshow on hover
-            restartDelay : 2500
-            // [number] restart delay on inactive slideshow
-        }
+    $('#slider').rhinoslider({
+        effect: 'chewyBars',
+        showTime: 1500,
+        effectTime: 4500,
+        controlsMousewheel: false,
+        controlsKeyboard: false,
+        controlsPlayPause: false,
+        autoPlay: true,
+        shiftValue: '50',
+        parts: '20'
     });
+    // $('#front-slides').slides({
+        // preload : true,
+        // preloadImage : 'img/loading.gif',
+        // pagination : false,
+        // fadeSpeed : 4000,
+        // generateNextPrev : false,
+        // generatePagination : false,
+        // crossfade : true,
+        // effect : 'fade',
+        // play : {
+            // active : true,
+            // // [boolean] Generate the play and stop buttons.
+            // // You cannot use your own buttons. Sorry.
+            // effect : "slide",
+            // // [string] Can be either "slide" or "fade".
+            // interval : 20000000,
+            // // [number] Time spent on each slide in milliseconds.
+            // auto : true,
+            // // [boolean] Start playing the slideshow on load.
+            // swap : false,
+            // // [boolean] show/hide stop and play buttons
+            // pauseOnHover : false,
+            // // [boolean] pause a playing slideshow on hover
+            // restartDelay : 2500
+            // // [number] restart delay on inactive slideshow
+        // }
+    // });
 
     // default headline
     $firstCaption = $(".slides_container div.slide:eq(0) .caption").text();

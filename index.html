@@ -7,6 +7,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/social-icons.css" type="text/css" media="screen" />
+        <link type="text/css" rel="stylesheet" href="css/rhinoslider-1.05.css" />
         <!-- ENDS CSS -->
 
         <!--[if IE]>
@@ -16,6 +17,7 @@
 
         <!-- JS -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
         <script type="text/javascript" src="js/slider.js"></script>
         <script src="js/slides/source/slides.min.jquery.js"></script>
@@ -64,10 +66,7 @@
         <div id="top-gap"></div>
         <!-- wrapper -->
         <div class="wrapper">
-            <a href="index.html">
-                <img  id="logo" src="img/logo_aero.png" alt="AeroFlex" />
-                <img id="textlogo" src="img/logo_text.png" alt="AeroFlex" />
-            </a>
+            <a href="index.html"> <img  id="logo" src="img/logo_aero.png" alt="AeroFlex" /> <img id="textlogo" src="img/logo_text.png" alt="AeroFlex" /> </a>
             <!-- nav bar holder -->
             <div id="nav-bar-holder">
                 <!-- Navigation -->
@@ -123,47 +122,28 @@
 
                 <!-- Page wrap -->
                 <div id="page-wrap">
-
-                    <!-- Front slider -->
                     <div id="front-slides" align="center">
                         <div class="slides_container">
-                            <div class="slide">
-                                <img src="img/banner-slider/banner.jpg"  alt="pic" width="940" height="306"  />
+                            <div id="slider">
+                                <div class="slide"><img src="img/banner-slider/banner.jpg" alt=""/></div>
+                                <div class="slide"><img src="img/banner-slider/banner1.jpg" alt="" /></div>
+                                <div class="slide"><img src="img/banner-slider/banner2.jpg" alt="" /></div>
+                                <div class="slide"><img src="img/banner-slider/banner3.jpg" alt=""/></div>
+                                <div class="slide"><img src="img/banner-slider/banner4.jpg" alt=""/></div>
+                                <div class="slide"><img src="img/banner-slider/banner5.jpg" alt=""/></div>
+                                <div class="slide"><img src="img/banner-slider/banner6.jpg" alt=""/></div>
+                                <div class="slide"><img src="img/banner-slider/banner7.jpg" alt=""/></div>
                             </div>
-                            <div class="slide">
-                                <img src="img/banner-slider/banner1.jpg"  alt="pic" width="940" height="306"  />
-                            </div>
-                            <div class="slide">
-                                <img src="img/banner-slider/banner2.jpg"  alt="pic" width="940" height="306"  />
-                            </div>
-                            <div class="slide">
-                                <img src="img/banner-slider/banner3.jpg"  alt="pic" width="940" height="306"  />
-                            </div>
-                            <div class="slide">
-                                <img src="img/banner-slider/banner4.jpg"  alt="pic" width="940" height="306"  />
-                            </div>
-                            <div class="slide">
-                                <img src="img/banner-slider/banner5.jpg"  alt="pic" width="940" height="306"  />
-                            </div>
-                            <div class="slide">
-                                <img src="img/banner-slider/banner6.jpg"  alt="pic" width="940" height="306"  />
-                            </div>
-                            <div class="slide">
-                                <img src="img/banner-slider/banner7.jpg"  alt="pic" width="940" height="306"  />
-                            </div>
+                            <div id="front-slides-cover"></div>
                         </div>
-
-                        <div id="front-slides-cover"></div>
-
-                        <!-- Headline -->
-                        <div id="headline">
-                            <h6></h6>
-                        </div>
-                        <!-- ENDS Headline -->
-
                     </div>
-                    <!-- ENDS Front slider -->
 
+                    <!-- Headline -->
+                    <div id="headline">
+                    <h6></h6>
+                    </div>
+                    <!-- ENDS Headline-->
+                        
                     <!-- Reel slider -->
                     <div id="reel">
                         <div class="slides_container">
