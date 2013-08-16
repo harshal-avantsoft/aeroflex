@@ -970,6 +970,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #484848;
     margin-top: 5px;
     margin-bottom: 7px;
+    font-size: 1.25em;
+}
+
+#reel .slides_container .description {
+    height: 76px;
+    text-align: justify;
+    /*overflow-y: auto;*/
+    display: block;
 }
 
 #reel .box-icon {

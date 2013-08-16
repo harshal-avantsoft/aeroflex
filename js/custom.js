@@ -71,6 +71,11 @@ jQuery(document).ready(function($) {
         shiftValue: '50',
         parts: '25'
     });
+    
+    $('.description').slimScroll({
+        height: '75px',
+        size : '3px'
+    });
     // $('#front-slides').slides({
         // preload : true,
         // preloadImage : 'img/loading.gif',
