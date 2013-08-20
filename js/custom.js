@@ -73,8 +73,8 @@ jQuery(document).ready(function($) {
     });
     
     $('.description').slimScroll({
-        height: '75px',
-        size : '3px'
+        height: '60px',
+        size : '4px'
     });
     // $('#front-slides').slides({
         // preload : true,
